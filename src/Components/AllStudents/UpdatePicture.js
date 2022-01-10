@@ -54,7 +54,7 @@ const UpdatePicture = (props) => {
                         (isLoading===false && img) &&
                         <Avatar alt="picture" src={`data:image/png;base64,${img}`} />
                     }
-                    Update Picture
+                    <span className='ms-1'>Update Picture</span>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
